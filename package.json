@@ -1,13 +1,17 @@
 {
-  "name": "es6-data-structures",
+  "name": "@liavinci/es6-data-structures",
   "version": "1.0.0",
   "description": "Data Structure With ES6",
-  "main": "index.js",
+  "main": "lib/es6-data-structures.js",
   "scripts": {
     "build-prod": "webpack --env dev && webpack --env build && npm run test",
     "build-dev": "webpack --progress --colors --watch --env dev",
     "test": "mocha --require babel-register --colors ./src/**/*.spec.js",
     "test:watch": "mocha --require babel-register --colors -w ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiavAvnaim/es6-data-structures.git"
   },
   "author": "Liav Avnaim (LiaVinci)",
   "license": "MIT",
